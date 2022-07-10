@@ -11,8 +11,8 @@ public class BinaryMain<K extends Comparable<K>> {
 				this.root = this.insertData(root,key);
 			}
 
-			public BinaryNode<K> insertData(BinaryNode<K> current, K key)
-			{
+			public BinaryNode<K> insertData(BinaryNode<K> current, K key){
+			
 				if(current ==  null)
 					return null;
 				int compareResult = key.compareTo(current.key);
@@ -27,6 +27,7 @@ public class BinaryMain<K extends Comparable<K>> {
 				}
 				return current;
 			}
+			
 			@Override
 			public String toString() 
 			{
