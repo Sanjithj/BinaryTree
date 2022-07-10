@@ -2,6 +2,7 @@ package com.bridgelabz;
 
 public class Node {
 	public class BinaryNode<T> {
+		
 		T key;
 		BinaryNode<T> left;
 		BinaryNode<T> right;
@@ -15,6 +16,7 @@ public class Node {
 		}
 	   @Override
 		public String toString() 
+		
 		{
 			return "BinaryNode [data=" + key + ", left=" + left + ", right=" + right + "]";
 		}

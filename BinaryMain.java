@@ -3,7 +3,9 @@ package com.bridgelabz;
 import com.bridgelabz.Node.BinaryNode;
 
 public class BinaryMain<K extends Comparable<K>> {
+	
 		private BinaryNode<K> root;
+		
 			public void add(K key)
 			{
 				this.root = this.insertData(root,key);
